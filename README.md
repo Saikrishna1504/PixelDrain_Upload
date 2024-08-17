@@ -38,5 +38,6 @@ Be careful for typos! You don't want to accidentally remove your [/usr](https://
 ## Note
 1) You need root access to your system.
 2) You need to generate your own API key.
+3) You also need to insatll jq package : ```sudo apt install jq```
 
 This Script Inspired From [Fornax96](https://github.com/Fornax96/pdup)
