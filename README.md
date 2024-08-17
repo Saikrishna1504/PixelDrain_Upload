@@ -11,7 +11,6 @@ To install `pdup`, run the following commands:
 ```
 sudo wget https://raw.githubusercontent.com/Saikrishna1504/PixelDrain_Upload/main/pdup -O "/usr/local/bin/pdup"
 sudo chmod +x "/usr/local/bin/pdup"
-
 ```
 
 ## Configuration
