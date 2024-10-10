@@ -27,7 +27,10 @@ FILEID=$(echo "$RESPONSE" | jq -r '.id')
 
 if [ -n "$FILEID" ] && [ "$FILEID" != "null" ]; then
     echo -e "\nFile uploaded successfully!"
-    echo "Your file URL: https://pixeldrain.com/u/$FILEID"
+    echo ""  
+    echo "Original link: https://pixeldrain.com/u/$FILEID"
+    echo ""  
+    echo "Pd quota bypassed link: https://pd.cybar.xyz/$FILEID"
 else
     echo -e "\nUpload failed."
     exit 1
