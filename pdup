@@ -30,7 +30,7 @@ if [ -n "$FILEID" ] && [ "$FILEID" != "null" ]; then
     echo ""  
     echo "Original link: https://pixeldrain.com/u/$FILEID"
     echo ""  
-    echo "Pd quota bypassed link: https://pd.1drv.eu.org/$FILEID"
+    echo "Pd quota bypassed link: https://cdn.pixeldrain.eu.cc/$FILEID"
 else
     echo -e "\nUpload failed."
     exit 1
